@@ -13,7 +13,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/styles.css" rel="stylesheet">
-    
+
     <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -121,5 +121,22 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
     <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+    <!--When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size -->
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80)
+      {
+        document.getElementById("navbar").style.padding = "30px 10px";
+        document.getElementById("logo").style.fontSize = "25px";
+      } else
+      {
+        document.getElementById("navbar").style.padding = "80px 10px";
+        document.getElementById("logo").style.fontSize = "35px";
+      }
+    }
+
+
+
   </body>
 </html>
