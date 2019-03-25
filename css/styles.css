@@ -14,7 +14,7 @@ body #homepage {
 
 #navbar {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #transparent;
   padding: 90px 10px;
   transition: 0.4s;
   position: fixed;
