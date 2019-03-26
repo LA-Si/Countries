@@ -1,0 +1,65 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>carousel</title>
+  <link rel="stylesheet" href="css/carousel.css">
+
+</head>
+
+<body>
+
+  <div id="carouselss">
+
+    <div style="text-align:center">
+    <h2>Tabbed Image Gallery</h2>
+    <p>Click on the images below:</p>
+    </div>
+
+    <div class="row">
+    <div class="column">
+      <img src="carousel-bermuda1.jpg" alt="North America-Bermuda" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="carousel-cambodia.jpg" alt="Asia-Cambodia" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="carousel-greece.jpg" alt="Europe-Greece" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="carousel-morocco.jpg" alt="Africa-Morocco" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="carousel-neverland.jpg" alt="Antarctica-Neverland" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="carousel-samoa1.jpg" alt="Australia-Samoa" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="carousel-venezuela1.jpg" alt="South America-Venezuela" style="width:100%" onclick="myFunction(this);">
+    </div>
+    </div>
+
+    <div class="container">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      <img id="expandedImg" style="width:75%">
+      <div id="imgtext"></div>
+    </div>
+
+    <script>
+    function myFunction(imgs) {
+      var expandImg = document.getElementById("expandedImg");
+      var imgText = document.getElementById("imgtext");
+      expandImg.src = imgs.src;
+      imgText.innerHTML = imgs.alt;
+      expandImg.parentElement.style.display = "block";
+    }
+    </script>
+
+  </div>
+
+
+</body>
