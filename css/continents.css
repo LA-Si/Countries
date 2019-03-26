@@ -1,0 +1,198 @@
+#navbar {
+  overflow: hidden;
+  background-color: rgb(20,0,20);
+  padding: 60px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+  .navbar {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 1px 1px;
+    text-decoration: none;
+  }
+
+.footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: rgb(20, 0, 20);
+     color: white;
+     text-align: center;
+     font-size: 18px;
+  }
+
+
+#navbar a {
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+  color:white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#navbar #logo {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+  color: white;
+}
+
+#navbar a:hover {
+  background-color: rgb(200, 200, 200);
+
+}
+
+#navbar a.active {
+  background-color: rgb(255, 255, 255);
+  color: grey;
+}
+
+#navbar-right {
+  float: right;
+}
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 10px 10px !important;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+  }
+  #continentMain .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 1px 1px;
+    text-decoration: none;
+  }
+}
+
+
+
+.CNAM {
+  position: relative;
+  bottom: 50rem;
+  background: rgba(0, 0, 0, 0.25);
+  color: #f1f1f1;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom:20rem;
+}
+#continents {
+  text-align: center;
+}
+
+#names1{
+  text-align: left;
+  color: black;
+}
+* {
+  box-sizing: border-box;
+}
+
+#names2{
+  text-align:left;
+  color: black;
+}
+#names3{
+  text-align:left;
+  color: black;
+}
+#names4{
+  text-align:left;
+  color: black;
+}
+#names5{
+  text-align:left;
+  color: black;
+}
+#names6{
+  text-align:left;
+  color: black;
+}
+#names7{
+  text-align:left;
+  color: black;
+}
+* {
+box-sizing: border-box;
+}
+/* Create seven equal columns that floats next to each other */
+.CNAM .column {
+  float: left;
+  width: 14.285%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.CNAM .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.CNAM .collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.CNAM .active, .collapsible:hover {
+  background-color: #555;
+}
+
+.CNAM .collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.CNAM .active:after {
+  content: "\2212";
+}
+
+.CNAM .content {
+  padding: 18 0px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
