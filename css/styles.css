@@ -167,7 +167,6 @@ h3 {
   width: 50%;
   height:inherit;
   padding-bottom: 10rem;
-
 }
 
 .overlayL {
@@ -175,7 +174,7 @@ h3 {
   bottom: 0;
   left: 100%;
   right: 0;
-  background-color: grey;
+  background-color:rgb(90,50,70);
   overflow: hidden;
   width: 0;
   height: 100%;
@@ -187,7 +186,7 @@ h3 {
   bottom: 0;
   left: 100%;
   right: 0;
-  background-color: grey;
+  background-color:rgb(90,50,70);
   overflow: hidden;
   width: 0;
   height: 100%;
@@ -222,11 +221,11 @@ h3 {
   font-family:times;
   font-style: italic;
   color:grey;
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 #A {
-  padding-top: 5rem;
+  padding-top: 2rem;
 }
 
 
@@ -269,4 +268,63 @@ h3 {
   color: white;
   font-size: 35px;
   cursor: pointer;
+}
+
+#welcome1 {
+  padding-top: 15rem;
+  font-family: times;
+}
+
+#myVideo {
+  padding-top: 3rem;
+  right: 100;
+  left: 10;
+  top: 10;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content{
+  padding-top: 7rem;
+}
+
+#socmedia {
+  padding-top: 5rem;
+  padding-bottom:2rem;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 5px;
+  font-size: 50px !important;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+
+  color: white;
+}
+
+.fa-google {
+  color: white;
+}
+
+.fa-snapchat{
+  color: white;
 }

@@ -48,14 +48,48 @@
     }
       </script>
 
-      <!--video background-->
-      <video autoplay muted loop id="myVideo">
-          <source src="EarthMoon.mp4" type="video/mp4">
-          Your browser does not support HTML5 video.
-        </video>
+      <div id="welcome1">
 
-        <div class="content">
-          <h1>The Earth and the Sun intersect</h1>
+            <h1>Hello Everyone</h1>
+            <h2>Welcome to our site!</h2>
+            <p>We have made this website as part of a <a href="https://www.codefirstgirls.org.uk/" target="website">CodeFirst Girls</a> course. This course was 8 weeks long, and taught us invaluable skills. We decided to make our presentation on the World, as the World has lots for us to learn, and we found some great pictures (not to mention video too!) to put on our website. Have a look through our simple website, we hope you find the detail interesting </p>
+      </div>
+
+
+        <main role="main" class="container">
+
+
+              <!-- columns -->
+<div class="row">
+          <div class="col-sm">
+              <img id="Arooj" src="arooj.jpg" width="200px" height="300px" alt="Avatar">
+                <div class="overlayA">
+                <div class="text">Thank You</div>
+            </div>
+            <p id="A">Arooj</p>
+            <p id="L"> "The course was so useful in teaching me the computing skills that I had wanted to learn for a long time. I learnt css and managed to put it on a website - I am very proud of this feat!"</p>
+          </div>
+
+          <div class="col-sm">
+              <img id="Laraib" src="lala.jpg" width="200px" height="300px" alt="Avatar">
+              <div class="overlayL">
+                <div class="text">CodeFirst!!!</div>
+              </div>
+            <p id="A"> Laraib</p>
+            <p id="L"> "I really enjoyed the course, I gained some extremely valuable skills, which I would recommened to anyone :)"</p>
+          </div>
+</div>
+
+<div containerVid>
+  <div class="content">
+    <h1>The Earth and the Sun intersect</h1>
+      <!--video box-->
+      <video width=820px; height=700px autoplay mute loop id="myVideo">
+
+          <source src="EarthMoon.mp4" type="video/mp4">
+      </video>
+
+
           <p>Click the button below to freeze the video at different points</p>
           <button id="myBtn" onclick="myFunction()">Pause</button>
       </div>
@@ -74,37 +108,7 @@
     }
   }
   </script>
-
-    <div>
-          <br>
-          <h1>Hello Everyone</h1>
-          <h2>Welcome to our site!</h2>
-    </div>
-
-
-  <main role="main" class="container">
-
-
-        <!-- columns -->
-  <div class="row">
-      <div class="col-sm">
-        <img id="Arooj" src="arooj.jpg" width="200px" height="300px" alt="Avatar">
-          <div class="overlayA">
-          <div class="text">Arooj</div>
-      </div>
-      <p id="A">  Arooj</p>
-            <p id="L"> "The course was so useful in teaching me the computing skills that I had wanted to learn for a long time. I learnt css and managed to put it on a website - I am very proud of this feat!"</p>
-      </div>
-
-      <div class="col-sm">
-        <img id="Laraib" src="lala.jpg" width="200px" height="300px" alt="Avatar">
-        <div class="overlayL">
-          <div class="text">Laraib</div>
-        </div>
-      <p id="A">  Laraib </p>
-      <p id="L"> "I really enjoyed the course, I gained some extremely valuable skills, which I would recommened to anyone :)"</p>
-      </div>
-  </div>
+</div>
 
 
         </main><!--/container-->
@@ -116,10 +120,22 @@
     <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
     <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
 
+<div id=socmedia>
+<p> Follow us on social media! </p>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Add font awesome icons -->
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-snapchat"></a>
+
+</div>
+
     <div class="footer">
       <p>The World</p>
     </div>
-
 
   </body>
 
