@@ -75,6 +75,10 @@ h3 {
   padding-top: 10rem;
 }
 
+#myBtn{
+background-color: rgb(90,50,70)
+}
+
 #navbar {
   overflow: hidden;
   background-color: rgb(20,0,20);
